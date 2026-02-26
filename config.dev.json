@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "botxyzabc@gmail.com",
+    "password": "Idonotknowbot",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -17,20 +17,20 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100014754734049",
-    "61552591230081"
+    "100065524890378",
+    "24040226015609928"
   ],
   "vip": [
-    "100014754734049",
-    "61552591230081"
+    "100065524890378",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [100014754734049],
+    "whiteListIds": [100065524890378],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🪽🐰 Your Baby🔥🩷",
-  "prefix": "!",
+  "nickNameBot": "🪽🐰Your Baby🔥🩷",
+  "prefix": "+",
   "api": "https://mahabub-apis.fun",
   "database": {
     "type": "mongodb",
