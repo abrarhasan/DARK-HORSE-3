@@ -19,7 +19,7 @@ module.exports = {
  version: "1.0",
  author: "Chitron Bhattacharjee",
  countDown: 5,
- role: 0,
+ role: 2,
  shortDescription: {
  en: "Search porn videos"
  },
