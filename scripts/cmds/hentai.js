@@ -9,7 +9,7 @@ module.exports = {
     version: "1.0",
     author: "Chitron Bhattacharjee",
     countDown: 5,
-    role: 0,
+    role: 2,
     shortDescription: { en: "Send safe cute anime illustration" },
     longDescription: { en: "Fetches safe (non-R18) anime images from lolicon API" },
     category: "fun",
