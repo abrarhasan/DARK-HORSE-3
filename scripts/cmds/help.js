@@ -3,13 +3,13 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 𝙈𝙖𝙝𝙖𝙗𝙪𝙗𖣘𝘽𝙤𝙩࿐ ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ ABRAR𖣘𝘽𝙤𝙩࿐ ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "Chitron Bhattacharjee", // original author Kshitiz 
+    author: "ABRAR", // original author Kshitiz 
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += ``; // replace with your name 
+      msg += `ABRAR𖣘HASAN`; // replace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -62,7 +62,7 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\n\n╭─────⭔[ 𝗘𝗻𝗷𝗼𝘆 🍀 ]\n│> 𝗧𝗼𝘁𝗮𝗹 𝗰𝗺𝗱𝘀: [${totalCommands}].\n│𝗧𝘆𝗽𝗲: [ ${prefix}𝗵𝗲𝗹𝗽 𝘁𝗼 \n│<𝗰𝗺𝗱> 𝘁𝗼 𝗹𝗲𝗮𝗿𝗻 𝘁𝗵𝗲 𝘂𝘀𝗮𝗴𝗲.]\n╰────────────:)`;
       msg += ``;
-      msg += `\n╭─────⭔\n│💫 | [Hi Guys I Am ${global.GoatBot.config.nickNameBot} MY OWNER LINK m.me/www.xnxx.com140]\n╰────────────:-)`; // its not decoy so change it if you want 
+      msg += `\n╭─────⭔\n│💫 | [Hi Guys I Am ${global.GoatBot.config.nickNameBot}. MY OWNER LINK: https://www.facebook.com/abrar.hasan.125760550]\n╰────────────:-)`; // its not decoy so change it if you want 
 
 
       await message.reply({
